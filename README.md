@@ -32,3 +32,11 @@ Update DevNav to the latest version:
 ```bash
 devnav update
 ```
+
+## Customize
+
+See your settings in:
+
+```text
+~/.config/devnav/config.toml
+```
