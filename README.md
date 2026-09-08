@@ -26,3 +26,9 @@ directory:
 ```bash
 devnav init
 ```
+
+Update DevNav to the latest version:
+
+```bash
+devnav update
+```

@@ -1,5 +1,6 @@
 mod config;
 mod init;
+mod update;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
@@ -15,6 +16,8 @@ struct Cli {
 enum Command {
     /// Configure where DevNav finds projects
     Init,
+    /// Update DevNav to the latest version
+    Update,
 }
 
 fn main() -> Result<()> {
@@ -22,5 +25,6 @@ fn main() -> Result<()> {
 
     match cli.command {
         Command::Init => init::run(),
+        Command::Update => update::run(),
     }
 }

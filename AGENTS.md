@@ -28,6 +28,7 @@ Removing a location from DevNav must never remove its directory or files.
 
 ```text
 devnav init
+devnav update
 devnav <project>
 devnav list
 devnav create <name>
@@ -43,6 +44,7 @@ in the DevNav binary, with support planned for Bash, Fish, and Zsh.
 - `src/main.rs`: command-line parsing and command dispatch.
 - `src/config.rs`: configuration loading, saving, and path handling.
 - `src/init.rs`: interactive location setup and management.
+- `src/update.rs`: updates the installed executable through Cargo.
 
 Keep modules focused and avoid adding abstractions until they remove concrete
 duplication or complexity.
