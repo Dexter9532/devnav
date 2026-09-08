@@ -9,7 +9,7 @@ jobs:
     name: Conventional Commits
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
       - uses: webiny/action-conventional-commits@1dc97face8fcf4db15ad186d34a1e44fdc5f0eb3
         with:
