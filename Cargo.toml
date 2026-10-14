@@ -9,4 +9,4 @@ description = "A simple tool for organizing and navigating development projects"
 anyhow = "1"
 clap = { version = "4", features = ["derive"] }
 serde = { version = "1", features = ["derive"] }
-toml = "0.8"
+toml = "1.1"
